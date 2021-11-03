@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="1t2-l7-yzn">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Экран шутки-->
+        <scene sceneID="rpV-mr-Pav">
+            <objects>
+                <viewController restorationIdentifier="JokeTextViewController" storyboardIdentifier="JokeTextViewController" title="Экран шутки" id="1t2-l7-yzn" customClass="JokeTextViewController" customModule="Testovoe" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dHv-Ld-GZd">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="A0L-OX-fTo">
+                                <rect key="frame" x="132" y="54" width="150" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="KcS-vd-oQ2"/>
+                                    <constraint firstAttribute="width" constant="150" id="Vg8-LW-kU3"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oni-yL-gNO">
+                                <rect key="frame" x="10" y="224" width="394" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="lO1-Lq-3c2"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="oni-yL-gNO" firstAttribute="top" secondItem="A0L-OX-fTo" secondAttribute="bottom" constant="20" id="Nbx-xz-E6y"/>
+                            <constraint firstItem="lO1-Lq-3c2" firstAttribute="trailing" secondItem="oni-yL-gNO" secondAttribute="trailing" constant="10" id="ZkY-F2-fA7"/>
+                            <constraint firstItem="A0L-OX-fTo" firstAttribute="top" secondItem="lO1-Lq-3c2" secondAttribute="top" constant="10" id="b6b-Ve-QWy"/>
+                            <constraint firstItem="oni-yL-gNO" firstAttribute="leading" secondItem="lO1-Lq-3c2" secondAttribute="leading" constant="10" id="h88-a5-ESW"/>
+                            <constraint firstItem="A0L-OX-fTo" firstAttribute="centerX" secondItem="dHv-Ld-GZd" secondAttribute="centerX" id="orQ-6t-AFl"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="A0L-OX-fTo" id="knZ-kl-OM5"/>
+                        <outlet property="jokeLabel" destination="oni-yL-gNO" id="a2T-Ov-iyF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="J7B-uH-bVm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="112" y="89"/>
+        </scene>
+    </scenes>
+</document>
