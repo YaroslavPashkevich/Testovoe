@@ -16,25 +16,21 @@ import SDWebImage
 protocol TableViewMVPViewProtocol: AnyObject {
     
     func reloadData()
-    
+    func error()
     
 }
-
 
 class TableViewMVPViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
     
-    
     var presenter: TableViewMVPPresenterProtocol = TableViewMVPPresenter()
-    
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
         title = "Экран категорий"
+        
         presenter.view = self
         presenter.viewDidLoad()
         
@@ -44,11 +40,15 @@ class TableViewMVPViewController: UIViewController {
 
 extension TableViewMVPViewController: TableViewMVPViewProtocol {
     
+    func error() {
+        let errorVC = UIAlertController(title: "Error", message: "Not internet", preferredStyle: .alert)
+        errorVC.addAction(UIAlertAction(title: "ok", style: .cancel))
+        present(errorVC, animated: true, completion: nil)
+    }
+        
     func reloadData() {
         tableView.reloadData()
     }
-    
-    
 }
 
 extension TableViewMVPViewController: UITableViewDelegate, UITableViewDataSource {
@@ -89,3 +89,5 @@ struct Joke: Decodable {
     let value: String
     let icon_url: String
 }
+
+
