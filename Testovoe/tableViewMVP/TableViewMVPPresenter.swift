@@ -9,19 +9,22 @@
 
 import Foundation
 import Alamofire
-import UIKit
+
+import MBProgressHUD
 
 // MARK: Presenter -
 protocol TableViewMVPPresenterProtocol {
     var view: TableViewMVPViewProtocol? { get set }
     func viewDidLoad()
     
+  
     func category(for indexPath: IndexPath) -> String
     func numberOfCategories() -> Int
     
 }
 
 class TableViewMVPPresenter: TableViewMVPPresenterProtocol {
+    
     
     weak var view: TableViewMVPViewProtocol?
     
@@ -33,6 +36,10 @@ class TableViewMVPPresenter: TableViewMVPPresenterProtocol {
     func numberOfCategories() -> Int {
         return jokes.count
     }
+    
+    
+    
+ 
     
     
     func addJoke() {
@@ -50,6 +57,7 @@ class TableViewMVPPresenter: TableViewMVPPresenterProtocol {
                         self.jokes.append(note)
                         DatabaseService.shared.saveMain(nil)
                         self.view?.reloadData()
+                       
                     }
                 )
             }
@@ -59,10 +67,34 @@ class TableViewMVPPresenter: TableViewMVPPresenterProtocol {
     func viewDidLoad() {
         
         
-        addJoke()
-
-            }
-        }
+        
+//        if jokes == [] {
+//        addJoke()
+//            print(category)
+//        } else { return DatabaseService.shared.entitiesFor(
+//            type: Note.self,
+//            context: DatabaseService.shared.persistentContainer.mainContext,
+//            closure: { note in
+//
+//            }) }
+//
   
+//        
+//        @IBAction private func addButtonPressed() {
+//            var textFieldText: String = ""
+//            let alert = UIAlertController(title: "", message: "", preferredStyle: .alert)
+//            alert.addTextField { textFeidl in
+//                textFeidl.addAction(UIAction(handler: { _ in
+//                    textFieldText = textFeidl.text ?? ""
+//                }), for: .editingChanged)
+//                
+//            }
+//            alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: { _ in
+//                self.presenter.addNewText(text: textFieldText)
+//            }))
+//            present(alert, animated: true, completion: nil)
+//        }
 
 
+}
+}

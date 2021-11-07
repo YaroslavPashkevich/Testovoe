@@ -1,0 +1,30 @@
+PODS:
+  - Alamofire (5.4.4)
+  - MBProgressHUD (1.2.0)
+  - SDWebImage (5.12.1):
+    - SDWebImage/Core (= 5.12.1)
+  - SDWebImage/Core (5.12.1)
+  - SwiftGen (6.5.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - MBProgressHUD
+  - SDWebImage
+  - SwiftGen
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - MBProgressHUD
+    - SDWebImage
+    - SwiftGen
+
+SPEC CHECKSUMS:
+  Alamofire: f3b09a368f1582ab751b3fff5460276e0d2cf5c9
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  SDWebImage: 4dc3e42d9ec0c1028b960a33ac6b637bb432207b
+  SwiftGen: a6d22010845f08fe18fbdf3a07a8e380fd22e0ea
+
+PODFILE CHECKSUM: 40a02e07c810bcb0976774000a293a7f5b0b0c3a
+
+COCOAPODS: 1.11.2

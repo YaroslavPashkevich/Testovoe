@@ -28,6 +28,8 @@ class JokeTextPresenter: JokeTextPresenterProtocol {
  
     }
     
+   
+    
     func targetCategory(category: String) {
         if category == "Random" {
             AF.request("https://api.chucknorris.io/jokes/random",

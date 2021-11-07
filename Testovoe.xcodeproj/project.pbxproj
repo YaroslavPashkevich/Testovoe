@@ -7,25 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04FCB6CF7C5103886416FF93 /* Pods_Testovoe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD97275863B6DF9A19B2A874 /* Pods_Testovoe.framework */; };
+		C4021D8127270218009EFE0D /* StoryboardScenes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4021D7D27270217009EFE0D /* StoryboardScenes.swift */; };
+		C4021D8227270218009EFE0D /* StoryboardSegues.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4021D7E27270218009EFE0D /* StoryboardSegues.swift */; };
+		C4021D8327270218009EFE0D /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4021D7F27270218009EFE0D /* Assets.swift */; };
+		C4021D8427270218009EFE0D /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4021D8027270218009EFE0D /* Strings.swift */; };
+		C4C140B1272EE6D400D3AEA2 /* MyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4C140B0272EE6D400D3AEA2 /* MyCell.xib */; };
+		C4C140B3272EE6EC00D3AEA2 /* MyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C140B2272EE6EC00D3AEA2 /* MyCell.swift */; };
+		C4C140B9272EF34F00D3AEA2 /* JokeText.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4C140B6272EF34F00D3AEA2 /* JokeText.storyboard */; };
+		C4C140BA272EF34F00D3AEA2 /* JokeTextPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C140B7272EF34F00D3AEA2 /* JokeTextPresenter.swift */; };
+		C4C140BB272EF34F00D3AEA2 /* JokeTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C140B8272EF34F00D3AEA2 /* JokeTextViewController.swift */; };
+		C4DEE8E32729E63C00191FD8 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DEE8E12729E63C00191FD8 /* Note.swift */; };
+		C4DEE8E72729E7A600191FD8 /* CoreDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DEE8E62729E7A600191FD8 /* CoreDataService.swift */; };
 		C4ECD3E82725D2D7009F40A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4ECD3E72725D2D7009F40A5 /* AppDelegate.swift */; };
 		C4ECD3EA2725D2D7009F40A5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4ECD3E92725D2D7009F40A5 /* SceneDelegate.swift */; };
 		C4ECD3EC2725D2D7009F40A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4ECD3EB2725D2D7009F40A5 /* ViewController.swift */; };
-		C4ECD3EF2725D2D7009F40A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4ECD3ED2725D2D7009F40A5 /* Main.storyboard */; };
+		C4ECD3EF2725D2D7009F40A5 /* Mainty.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4ECD3ED2725D2D7009F40A5 /* Mainty.storyboard */; };
 		C4ECD3F22725D2D7009F40A5 /* Testovoe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C4ECD3F02725D2D7009F40A5 /* Testovoe.xcdatamodeld */; };
 		C4ECD3F42725D2DB009F40A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4ECD3F32725D2DB009F40A5 /* Assets.xcassets */; };
 		C4ECD3F72725D2DB009F40A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4ECD3F52725D2DB009F40A5 /* LaunchScreen.storyboard */; };
+		C4ECD4012725D2EF009F40A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4ECD3FE2725D2EF009F40A5 /* Main.storyboard */; };
+		C4ECD4022725D2EF009F40A5 /* TableViewMVPPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4ECD3FF2725D2EF009F40A5 /* TableViewMVPPresenter.swift */; };
+		C4ECD4032725D2EF009F40A5 /* TableViewMVPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4ECD4002725D2EF009F40A5 /* TableViewMVPViewController.swift */; };
+		C4ECD4072725D45D009F40A5 /* Configuration.yml in Resources */ = {isa = PBXBuildFile; fileRef = C4ECD4062725D45D009F40A5 /* Configuration.yml */; };
+		C4ECD40A2725D49A009F40A5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C4ECD4092725D49A009F40A5 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B9355287F6632F38C355BA7 /* Pods-Testovoe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Testovoe.release.xcconfig"; path = "Target Support Files/Pods-Testovoe/Pods-Testovoe.release.xcconfig"; sourceTree = "<group>"; };
+		C4021D7D27270217009EFE0D /* StoryboardScenes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardScenes.swift; sourceTree = "<group>"; };
+		C4021D7E27270218009EFE0D /* StoryboardSegues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardSegues.swift; sourceTree = "<group>"; };
+		C4021D7F27270218009EFE0D /* Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
+		C4021D8027270218009EFE0D /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		C4C140B0272EE6D400D3AEA2 /* MyCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCell.xib; sourceTree = "<group>"; };
+		C4C140B2272EE6EC00D3AEA2 /* MyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCell.swift; sourceTree = "<group>"; };
+		C4C140B6272EF34F00D3AEA2 /* JokeText.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = JokeText.storyboard; sourceTree = "<group>"; };
+		C4C140B7272EF34F00D3AEA2 /* JokeTextPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeTextPresenter.swift; sourceTree = "<group>"; };
+		C4C140B8272EF34F00D3AEA2 /* JokeTextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeTextViewController.swift; sourceTree = "<group>"; };
+		C4DEE8E12729E63C00191FD8 /* Note.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		C4DEE8E62729E7A600191FD8 /* CoreDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataService.swift; sourceTree = "<group>"; };
 		C4ECD3E42725D2D7009F40A5 /* Testovoe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Testovoe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4ECD3E72725D2D7009F40A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C4ECD3E92725D2D7009F40A5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		C4ECD3EB2725D2D7009F40A5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C4ECD3EE2725D2D7009F40A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C4ECD3EE2725D2D7009F40A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Mainty.storyboard; sourceTree = "<group>"; };
 		C4ECD3F12725D2D7009F40A5 /* Testovoe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Testovoe.xcdatamodel; sourceTree = "<group>"; };
 		C4ECD3F32725D2DB009F40A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4ECD3F62725D2DB009F40A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C4ECD3F82725D2DB009F40A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4ECD3FE2725D2EF009F40A5 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		C4ECD3FF2725D2EF009F40A5 /* TableViewMVPPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewMVPPresenter.swift; sourceTree = "<group>"; };
+		C4ECD4002725D2EF009F40A5 /* TableViewMVPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewMVPViewController.swift; sourceTree = "<group>"; };
+		C4ECD4062725D45D009F40A5 /* Configuration.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = Configuration.yml; sourceTree = "<group>"; };
+		C4ECD4092725D49A009F40A5 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		CD97275863B6DF9A19B2A874 /* Pods_Testovoe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Testovoe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0FA0F57B11453C5116ACAB8 /* Pods-Testovoe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Testovoe.debug.xcconfig"; path = "Target Support Files/Pods-Testovoe/Pods-Testovoe.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +69,72 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04FCB6CF7C5103886416FF93 /* Pods_Testovoe.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05A5910B4101946108C4090C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD97275863B6DF9A19B2A874 /* Pods_Testovoe.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		35A1D91488EE5B22F751A191 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D0FA0F57B11453C5116ACAB8 /* Pods-Testovoe.debug.xcconfig */,
+				0B9355287F6632F38C355BA7 /* Pods-Testovoe.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C4C140AF272EE67100D3AEA2 /* MySell */ = {
+			isa = PBXGroup;
+			children = (
+				C4C140B0272EE6D400D3AEA2 /* MyCell.xib */,
+				C4C140B2272EE6EC00D3AEA2 /* MyCell.swift */,
+			);
+			path = MySell;
+			sourceTree = "<group>";
+		};
+		C4C140BC272EF36000D3AEA2 /* JokeText */ = {
+			isa = PBXGroup;
+			children = (
+				C4C140B6272EF34F00D3AEA2 /* JokeText.storyboard */,
+				C4C140B7272EF34F00D3AEA2 /* JokeTextPresenter.swift */,
+				C4C140B8272EF34F00D3AEA2 /* JokeTextViewController.swift */,
+			);
+			path = JokeText;
+			sourceTree = "<group>";
+		};
+		C4DEE8E02729E53700191FD8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C4DEE8E12729E63C00191FD8 /* Note.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C4DEE8E52729E78600191FD8 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				C4DEE8E62729E7A600191FD8 /* CoreDataService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 		C4ECD3DB2725D2D7009F40A5 = {
 			isa = PBXGroup;
 			children = (
 				C4ECD3E62725D2D7009F40A5 /* Testovoe */,
 				C4ECD3E52725D2D7009F40A5 /* Products */,
+				35A1D91488EE5B22F751A191 /* Pods */,
+				05A5910B4101946108C4090C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,14 +151,51 @@
 			children = (
 				C4ECD3E72725D2D7009F40A5 /* AppDelegate.swift */,
 				C4ECD3E92725D2D7009F40A5 /* SceneDelegate.swift */,
-				C4ECD3EB2725D2D7009F40A5 /* ViewController.swift */,
-				C4ECD3ED2725D2D7009F40A5 /* Main.storyboard */,
-				C4ECD3F32725D2DB009F40A5 /* Assets.xcassets */,
+				C4C140AF272EE67100D3AEA2 /* MySell */,
+				C4DEE8E02729E53700191FD8 /* Models */,
 				C4ECD3F52725D2DB009F40A5 /* LaunchScreen.storyboard */,
+				C4ECD3EB2725D2D7009F40A5 /* ViewController.swift */,
+				C4ECD3ED2725D2D7009F40A5 /* Mainty.storyboard */,
+				C4DEE8E52729E78600191FD8 /* Service */,
+				C4ECD4082725D481009F40A5 /* Resources */,
+				C4ECD4052725D431009F40A5 /* SwiftGen */,
+				C4ECD40B2725D6F7009F40A5 /* tableViewMVP */,
 				C4ECD3F82725D2DB009F40A5 /* Info.plist */,
 				C4ECD3F02725D2D7009F40A5 /* Testovoe.xcdatamodeld */,
+				C4C140BC272EF36000D3AEA2 /* JokeText */,
 			);
 			path = Testovoe;
+			sourceTree = "<group>";
+		};
+		C4ECD4052725D431009F40A5 /* SwiftGen */ = {
+			isa = PBXGroup;
+			children = (
+				C4ECD4062725D45D009F40A5 /* Configuration.yml */,
+				C4021D7F27270218009EFE0D /* Assets.swift */,
+				C4021D7D27270217009EFE0D /* StoryboardScenes.swift */,
+				C4021D7E27270218009EFE0D /* StoryboardSegues.swift */,
+				C4021D8027270218009EFE0D /* Strings.swift */,
+			);
+			path = SwiftGen;
+			sourceTree = "<group>";
+		};
+		C4ECD4082725D481009F40A5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C4ECD4092725D49A009F40A5 /* Localizable.strings */,
+				C4ECD3F32725D2DB009F40A5 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C4ECD40B2725D6F7009F40A5 /* tableViewMVP */ = {
+			isa = PBXGroup;
+			children = (
+				C4ECD3FE2725D2EF009F40A5 /* Main.storyboard */,
+				C4ECD4002725D2EF009F40A5 /* TableViewMVPViewController.swift */,
+				C4ECD3FF2725D2EF009F40A5 /* TableViewMVPPresenter.swift */,
+			);
+			path = tableViewMVP;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +205,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C4ECD3FB2725D2DB009F40A5 /* Build configuration list for PBXNativeTarget "Testovoe" */;
 			buildPhases = (
+				344AD163FF9C0281FB017EED /* [CP] Check Pods Manifest.lock */,
+				C4ECD4042725D3E9009F40A5 /* SwiftGen */,
 				C4ECD3E02725D2D7009F40A5 /* Sources */,
 				C4ECD3E12725D2D7009F40A5 /* Frameworks */,
 				C4ECD3E22725D2D7009F40A5 /* Resources */,
+				E300F567DC5B272FE976F697 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,35 +259,111 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4C140B9272EF34F00D3AEA2 /* JokeText.storyboard in Resources */,
+				C4ECD4012725D2EF009F40A5 /* Main.storyboard in Resources */,
+				C4ECD4072725D45D009F40A5 /* Configuration.yml in Resources */,
+				C4ECD40A2725D49A009F40A5 /* Localizable.strings in Resources */,
 				C4ECD3F72725D2DB009F40A5 /* LaunchScreen.storyboard in Resources */,
+				C4C140B1272EE6D400D3AEA2 /* MyCell.xib in Resources */,
 				C4ECD3F42725D2DB009F40A5 /* Assets.xcassets in Resources */,
-				C4ECD3EF2725D2D7009F40A5 /* Main.storyboard in Resources */,
+				C4ECD3EF2725D2D7009F40A5 /* Mainty.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		344AD163FF9C0281FB017EED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Testovoe-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4ECD4042725D3E9009F40A5 /* SwiftGen */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftGen;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#if which $PODS_ROOT/SwiftGen/bin/swiftgen >/dev/null; then\n    $PODS_ROOT/SwiftGen/bin/swiftgen config run --config \"$PROJECT_DIR/testovoe/SwiftGen/Configuration.yml\"\n    touch \"$PROJECT_DIR/testovoe/SwiftGen/Configuration.yml\"\n#else\n    #echo \"SwiftGen not installed, download it from https://github.com/AliSoftware/SwiftGen\"\n#fi\n";
+		};
+		E300F567DC5B272FE976F697 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Testovoe/Pods-Testovoe-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Testovoe/Pods-Testovoe-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Testovoe/Pods-Testovoe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C4ECD3E02725D2D7009F40A5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4C140BA272EF34F00D3AEA2 /* JokeTextPresenter.swift in Sources */,
 				C4ECD3EC2725D2D7009F40A5 /* ViewController.swift in Sources */,
+				C4DEE8E72729E7A600191FD8 /* CoreDataService.swift in Sources */,
+				C4ECD4022725D2EF009F40A5 /* TableViewMVPPresenter.swift in Sources */,
+				C4C140B3272EE6EC00D3AEA2 /* MyCell.swift in Sources */,
+				C4021D8427270218009EFE0D /* Strings.swift in Sources */,
+				C4ECD4032725D2EF009F40A5 /* TableViewMVPViewController.swift in Sources */,
+				C4021D8127270218009EFE0D /* StoryboardScenes.swift in Sources */,
+				C4C140BB272EF34F00D3AEA2 /* JokeTextViewController.swift in Sources */,
 				C4ECD3E82725D2D7009F40A5 /* AppDelegate.swift in Sources */,
 				C4ECD3F22725D2D7009F40A5 /* Testovoe.xcdatamodeld in Sources */,
+				C4021D8227270218009EFE0D /* StoryboardSegues.swift in Sources */,
 				C4ECD3EA2725D2D7009F40A5 /* SceneDelegate.swift in Sources */,
+				C4DEE8E32729E63C00191FD8 /* Note.swift in Sources */,
+				C4021D8327270218009EFE0D /* Assets.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C4ECD3ED2725D2D7009F40A5 /* Main.storyboard */ = {
+		C4ECD3ED2725D2D7009F40A5 /* Mainty.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				C4ECD3EE2725D2D7009F40A5 /* Base */,
 			);
-			name = Main.storyboard;
+			name = Mainty.storyboard;
 			sourceTree = "<group>";
 		};
 		C4ECD3F52725D2DB009F40A5 /* LaunchScreen.storyboard */ = {
@@ -288,6 +495,7 @@
 		};
 		C4ECD3FC2725D2DB009F40A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0FA0F57B11453C5116ACAB8 /* Pods-Testovoe.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -315,6 +523,7 @@
 		};
 		C4ECD3FD2725D2DB009F40A5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B9355287F6632F38C355BA7 /* Pods-Testovoe.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
